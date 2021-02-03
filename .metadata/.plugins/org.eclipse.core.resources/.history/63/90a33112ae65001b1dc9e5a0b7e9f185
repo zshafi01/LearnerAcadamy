@@ -1,0 +1,44 @@
+package com.simplilearn.repository;
+
+import java.util.List;
+
+import com.simplilearn.model.Instructor;
+
+public class InstructorRepository {
+
+	
+	public void insert(Instructor a) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	public void update(Instructor a) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	
+	public void delete(int a) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	
+	public List<Instructor> getAll() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	
+	public Instructor getById(int id) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	
+	public Instructor getByName(String name) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

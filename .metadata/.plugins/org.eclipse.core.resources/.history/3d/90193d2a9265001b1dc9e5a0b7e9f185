@@ -1,0 +1,7 @@
+package com.simplilearn.repository;
+
+import com.simplilearn.model.User;
+
+public interface UserRepository extends Base<User>{
+
+}

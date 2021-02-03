@@ -1,0 +1,8 @@
+INDEX VERSION 1.4+C:\Users\biliy\Desktop\Simple learing\phase2-project\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+1771459413.index
+3375650015.index
+3065092616.index
+1927171126.index
+2326572229.index
+164475842.index
+4160943354.index

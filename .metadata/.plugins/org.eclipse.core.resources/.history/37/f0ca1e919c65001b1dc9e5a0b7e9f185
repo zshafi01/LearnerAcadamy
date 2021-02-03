@@ -1,0 +1,45 @@
+package com.simplilearn.repository;
+
+import java.util.List;
+
+import com.simplilearn.model.Course;
+
+public class CourseRepository {
+
+	@Override
+	public void insert(Course a) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void update(Course a) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void delete(int a) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public List<Course> getAll() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Course getById(int id) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Course getByName(String name) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

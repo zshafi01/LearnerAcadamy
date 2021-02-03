@@ -1,0 +1,5 @@
+
+<div>
+<a href="user.jsp">Sign Up</a><br>
+<a href="login.jsp">Log In</a>
+</div>

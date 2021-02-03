@@ -1,0 +1,75 @@
+package com.simplilearn.model;
+
+import javax.persistence.Entity;
+import javax.persistence.FetchType;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+import javax.persistence.JoinColumn;
+import javax.persistence.OneToOne;
+import javax.persistence.Table;
+
+@Entity
+
+@Table(name = "admin")
+public class Admin {
+	@Id
+	@GeneratedValue(generator ="admin_id_seq", strategy = GenerationType.AUTO)
+	
+	private int id;
+	@OneToOne(fetch = FetchType.EAGER)
+	@JoinColumn(name = "users_id")
+	private User userid;
+	
+	private String firstName;
+	
+	private String lastName;
+
+	public Admin() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+
+	public Admin(int id, User userid, String firstName, String lastName) {
+		super();
+		this.id = id;
+		this.userid = userid;
+		this.firstName = firstName;
+		this.lastName = lastName;
+	}
+
+	public int getId() {
+		return id;
+	}
+
+	public void setId(int id) {
+		this.id = id;
+	}
+
+	public User getUserid() {
+		return userid;
+	}
+
+	public void setUserid(User userid) {
+		this.userid = userid;
+	}
+
+	public String getFirstName() {
+		return firstName;
+	}
+
+	public void setFirstName(String firstName) {
+		this.firstName = firstName;
+	}
+
+	public String getLastName() {
+		return lastName;
+	}
+
+	public void setLastName(String lastName) {
+		this.lastName = lastName;
+	}
+	
+	
+
+}

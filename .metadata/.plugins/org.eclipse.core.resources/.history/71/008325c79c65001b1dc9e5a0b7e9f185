@@ -1,0 +1,45 @@
+package com.simplilearn.repository;
+
+import java.util.List;
+
+import com.simplilearn.model.Student;
+
+public class StudentReposetoryImp implements StudentRepository {
+
+	@Override
+	public void insert(Student a) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void update(Student a) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void delete(int a) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public List<Student> getAll() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Student getById(int id) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Student getByName(String name) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

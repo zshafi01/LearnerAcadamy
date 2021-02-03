@@ -1,0 +1,45 @@
+package com.simplilearn.repository;
+
+import java.util.List;
+
+import com.simplilearn.model.Type;
+
+public class TypeRepository {
+
+	@Override
+	public void insert(Type a) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void update(Type a) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void delete(int a) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public List<Type> getAll() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Type getById(int id) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Type getByName(String name) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

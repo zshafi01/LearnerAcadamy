@@ -1,0 +1,7 @@
+package com.simplilearn.repository;
+import com.simplilearn.model.*;
+
+public interface AdminRepository extends Base<Admin>{
+	public Admin getByUserId(User userId);
+
+}

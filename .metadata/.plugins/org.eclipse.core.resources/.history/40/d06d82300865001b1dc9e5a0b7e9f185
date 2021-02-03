@@ -1,0 +1,5 @@
+package com.simplilearn.util;
+
+public class HibernateUtil {
+
+}

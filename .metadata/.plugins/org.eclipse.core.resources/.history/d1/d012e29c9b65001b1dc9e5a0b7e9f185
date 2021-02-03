@@ -1,0 +1,52 @@
+package com.simplilearn.repository;
+
+import java.util.List;
+
+import com.simplilearn.model.Admin;
+import com.simplilearn.model.User;
+
+public class AdminRepositoryImp  {
+
+
+	public void insert(Admin a) {
+		// TODO Auto-generated method stub
+		
+	}
+
+
+	public void update(Admin a) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	
+	public void delete(int a) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	
+	public List<Admin> getAll() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	
+	public Admin getById(int id) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	
+	public Admin getByName(String name) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	
+	public Admin getByUserId(User userId) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

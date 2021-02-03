@@ -1,0 +1,67 @@
+package com.simplilearn.repository;
+
+import java.util.List;
+
+import org.hibernate.Session;
+import org.hibernate.Transaction;
+import org.hibernate.cfg.Configuration;
+
+import com.simplilearn.model.User;
+
+public class UserRepository {
+	
+	Session getSession(){
+		Configuration cnfg= new Configuration();
+    	cnfg.configure("hibernate.cfg.xml");
+    	Session session = cnfg.buildSessionFactory().openSession();
+    	return session;
+	}
+
+	public boolean insert(User user) {
+		// TODO Auto-generated method stub
+		try {
+		Session session=getSession();
+		Transaction transaction = session.beginTransaction();
+		session.save(user);
+		transaction.commit();
+		session.close();
+		}catch (Exception e) {
+			e.printStackTrace();
+			return false;
+		}
+		return true;
+		
+	}
+	
+	public List<User> getAll() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+//	@Override
+//	public void update(User a) {
+//		// TODO Auto-generated method stub
+//		
+//	}
+//
+//	@Override
+//	public void delete(int a) {
+//		// TODO Auto-generated method stub
+//		
+//	}
+//
+//
+//
+//	@Override
+//	public User getById(int id) {
+//		// TODO Auto-generated method stub
+//		return null;
+//	}
+//
+//	@Override
+//	public User getByName(String name) {
+//		// TODO Auto-generated method stub
+//		return null;
+//	}
+
+}

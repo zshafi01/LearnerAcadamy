@@ -1,0 +1,31 @@
+package com.simplilearn.model;
+
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.FetchType;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+import javax.persistence.JoinColumn;
+import javax.persistence.OneToOne;
+import javax.persistence.SequenceGenerator;
+import javax.persistence.Table;
+
+@Entity
+
+@Table(name = "admin")
+public class Admin {
+	@Id
+	@GeneratedValue(generator ="admin_id_seq", strategy = GenerationType.AUTO)
+	@SequenceGenerator(name="admin_id_seq", allocationSize=1)
+	@Column
+	private int id;
+	@OneToOne(fetch = FetchType.EAGER)
+	@JoinColumn(name = "users_id")
+	private User userid;
+	@Column
+	private String firstName;
+	@Column
+	private String lastName;
+
+}

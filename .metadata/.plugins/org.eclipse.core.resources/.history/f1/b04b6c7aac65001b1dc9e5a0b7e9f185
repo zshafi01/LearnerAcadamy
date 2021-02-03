@@ -1,0 +1,87 @@
+package com.simplilearn.model;
+
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.FetchType;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+import javax.persistence.JoinColumn;
+import javax.persistence.OneToOne;
+import javax.persistence.SequenceGenerator;
+import javax.persistence.Table;
+
+@Entity
+
+@Table(name = "instructor")
+public class Instructor {
+	
+	@Id
+	@GeneratedValue(generator = "instructor_id_seq", strategy = GenerationType.AUTO)
+	@SequenceGenerator(name = "instructor_id_seq", allocationSize = 1)
+	@Column
+	private int id;
+	@OneToOne(fetch = FetchType.EAGER)
+	@JoinColumn(name = "users_id")
+	private User userid;
+	@Column
+	private String firstName;
+	@Column
+	private String lastName;
+	@Column
+	private String phoneNumber;
+	@Column
+	private String address;
+	public Instructor() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+	public Instructor(int id, User userid, String firstName, String lastName, String phoneNumber, String address) {
+		super();
+		this.id = id;
+		this.userid = userid;
+		this.firstName = firstName;
+		this.lastName = lastName;
+		this.phoneNumber = phoneNumber;
+		this.address = address;
+	}
+	public int getId() {
+		return id;
+	}
+	public void setId(int id) {
+		this.id = id;
+	}
+	public User getUserid() {
+		return userid;
+	}
+	public void setUserid(User userid) {
+		this.userid = userid;
+	}
+	public String getFirstName() {
+		return firstName;
+	}
+	public void setFirstName(String firstName) {
+		this.firstName = firstName;
+	}
+	public String getLastName() {
+		return lastName;
+	}
+	public void setLastName(String lastName) {
+		this.lastName = lastName;
+	}
+	public String getPhoneNumber() {
+		return phoneNumber;
+	}
+	public void setPhoneNumber(String phoneNumber) {
+		this.phoneNumber = phoneNumber;
+	}
+	public String getAddress() {
+		return address;
+	}
+	public void setAddress(String address) {
+		this.address = address;
+	}
+
+	
+
+}

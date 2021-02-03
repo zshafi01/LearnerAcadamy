@@ -1,0 +1,5 @@
+package com.simplilearn.repository;
+import com.simplilearn.model.*;
+public interface StudentRepository extends Base<Student> {
+
+}

@@ -1,0 +1,22 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+Frist Name<input type="text" name="fname">
+Last Name<input type="text" name="lname">
+Email<input type="email" name="email">
+Password<input type="password" name="password">
+
+<select name="type">
+    <option value="type_id">Instructor</option>
+    <option value="type_id">Student</option>
+
+</select>
+<input type="submit" value="Submit">
+</body>
+</html>

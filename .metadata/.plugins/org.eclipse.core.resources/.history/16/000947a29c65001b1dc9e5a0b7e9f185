@@ -1,0 +1,45 @@
+package com.simplilearn.repository;
+
+import java.util.List;
+
+import com.simplilearn.model.Instructor;
+
+public class InstructorRepositoryImp {
+
+	@Override
+	public void insert(Instructor a) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void update(Instructor a) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void delete(int a) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public List<Instructor> getAll() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Instructor getById(int id) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Instructor getByName(String name) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}
