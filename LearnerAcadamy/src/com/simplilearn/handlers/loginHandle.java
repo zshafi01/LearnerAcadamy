@@ -23,7 +23,7 @@ public class loginHandle extends HttpServlet {
 
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		PrintWriter out= response.getWriter();
-		out.println("log in page");
+		//out.println("log in page");
 		
 		String email=request.getParameter("email");
 		String password=request.getParameter("password");

@@ -7,8 +7,12 @@
 <title>Insert title here</title>
 </head>
 <body>
+<form method="post" action="courseHandler">
 Course Name:<input type="text" name="c_name"><br/>
 Course hour:<input type="text" name="c_hour"><br/>
+Course Price:<input type="text" name="c_price"><br/>
+Course Description:<input type="text" name="c_desc"><br/>
+
 Instructor:<select name="instructor">
     <option value="fname1">Ezedin</option>
     <option value="fname2">Mohammed</option>
@@ -19,6 +23,7 @@ Class:<select name="class">
     <option value="classB">Class B</option>
 	 <option value="classC">Class C</option>
 </select><br/>
-
+<input type="submit" value="submit">
+</form>
 </body>
 </html>
