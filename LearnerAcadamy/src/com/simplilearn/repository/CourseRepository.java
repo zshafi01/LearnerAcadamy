@@ -6,6 +6,7 @@ import org.hibernate.Session;
 import org.hibernate.Transaction;
 import org.hibernate.cfg.Configuration;
 
+import com.simplilearn.model.Classes;
 import com.simplilearn.model.Course;
 
 public class CourseRepository {
@@ -42,10 +43,15 @@ public class CourseRepository {
 		// TODO Auto-generated method stub
 		
 	}
+	
+	public List<Course> getAll(){
+		Session session = getSession();
+		Transaction transaction = session.beginTransaction();
+		List<Course> courseList = session.createQuery("FROM Course").list();
 
-	public List<Course> getAll() {
-		// TODO Auto-generated method stub
-		return null;
+		transaction.commit();
+		session.close();
+		return courseList;
 	}
 
 	

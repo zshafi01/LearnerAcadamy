@@ -1,5 +1,6 @@
 package com.simplilearn.repository;
 
+import java.util.HashSet;
 import java.util.List;
 
 import org.hibernate.Session;
@@ -8,6 +9,9 @@ import org.hibernate.cfg.Configuration;
 import org.hibernate.query.Query;
 
 import com.simplilearn.model.Classes;
+import com.simplilearn.model.Course;
+import com.simplilearn.model.Instructor;
+import com.simplilearn.model.Student;
 import com.simplilearn.model.User;
 
 public class ClassRepository {
@@ -19,11 +23,18 @@ public class ClassRepository {
     	return session;
 	}
 
-	public boolean insert(Classes cls) {
+	public boolean insert(Classes cls, Integer instructorid, Integer courseid) {
 		// TODO Auto-generated method stub
 		try {
 		Session session=getSession();
 		Transaction transaction = session.beginTransaction();
+//		Student student = session.get(Student.class, studentid);
+		Course course = session.get(Course.class, courseid);
+		Instructor instructor = session.get(Instructor.class, instructorid);
+		cls.setCourse(course);
+		cls.setInstractor(instructor);
+		
+		
 		session.save(cls);
 		transaction.commit();
 		session.close();

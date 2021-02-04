@@ -5,6 +5,7 @@ import org.hibernate.cfg.Configuration;
 
 import java.util.List;
 
+import com.simplilearn.model.Instructor;
 import com.simplilearn.model.Student;
 
 public class StudentReposetory  {
@@ -44,12 +45,22 @@ public class StudentReposetory  {
 		
 	}
 
-	
-	public List<Student> getAll() {
-		// TODO Auto-generated method stub
-		return null;
+	public List<Student> getAll(){
+		Session session = getSession();
+		Transaction transaction = session.beginTransaction();
+		List<Student> studentList = session.createQuery("FROM Student").list();
+
+		transaction.commit();
+		session.close();
+		return studentList;
 	}
 
+	public static void main(String[] args) {
+		StudentReposetory reposetory=new StudentReposetory();
+				
+		List<Student>students=reposetory.getAll();
+		for(Student s:students) {System.out.println("Name:"+s.getFname());}
+	}
 	
 	public Student getById(int id) {
 		// TODO Auto-generated method stub

@@ -17,25 +17,23 @@ import javax.persistence.ManyToOne;
 import javax.persistence.Table;
 
 @Entity
-@Table(name = "classes")
 public class Classes {
 	
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private int id;
-	private Date year;
+	private String year;
 	private String semester;
-	private String subject;
 	
 	@ManyToOne
-    @JoinColumn(name="instractor_id", nullable=false)
+    @JoinColumn(name="instractor_id")
 	private Instructor instractor;
 	
 	@ManyToOne
-    @JoinColumn(name="course_id", nullable=false)
+    @JoinColumn(name="course_id")
 	private Course course;
 	
-	 @ManyToMany(cascade = { CascadeType.ALL })
+	 @ManyToMany()
 	    @JoinTable(
 	        name = "Classes_Student", 
 	        joinColumns = { @JoinColumn(name = "classes_id") }, 
@@ -50,10 +48,10 @@ public class Classes {
 	public void setId(int id) {
 		this.id = id;
 	}
-	public Date getYear() {
+	public String getYear() {
 		return year;
 	}
-	public void setYear(Date year) {
+	public void setYear(String year) {
 		this.year = year;
 	}
 	public String getSemester() {
@@ -62,12 +60,7 @@ public class Classes {
 	public void setSemester(String semester) {
 		this.semester = semester;
 	}
-	public String getSubject() {
-		return subject;
-	}
-	public void setSubject(String subject) {
-		this.subject = subject;
-	}
+	
 	public Instructor getInstractor() {
 		return instractor;
 	}

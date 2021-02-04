@@ -8,18 +8,28 @@
 </head>
 <body>
 <form method="post" action="registrationHandler">
-Frist Name<input type="text" name="fname"><br/>
-Last Name<input type="text" name="lname"><br/>
-Email<input type="email" name="email"><br/>
-Password<input type="password" name="password"><br/>
-
-<select name="type">
+<table>
+<tr>
+<td>First Name </td><td><input type="text" name="fname"></td><br/>
+</tr>
+<tr><td>Last Name</td><td><input type="text" name="lname"></td><br/>
+</tr>
+<tr><td>Email</td><td><input type="email" name="email"></td><br/>
+</tr>
+<tr>
+<td>Password</td><td><input type="password" name="password"></td><br/>
+</tr>
+<tr>
+<td class="select">Users</td>
+<td><select name="type">
 	<option value="admin">Admin</option>
     <option value="Instructor">Instructor</option>
     <option value="Student">Student</option>
-
-</select><br/>
-<input type="submit" value="Submit">
+</select></td>
+</tr>
+<tr>
+<td></td><td><input type="submit" value="Submit"></td></tr>
+</table>
 </form>
 </body>
 </html>

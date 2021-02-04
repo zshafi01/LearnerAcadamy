@@ -4,9 +4,30 @@
 <html>
 <head>
 <meta charset="ISO-8859-1">
-<title>Insert title here</title>
+<title>Info about student</title>
 </head>
 <body>
+<form  method="post" action="sudentHandler">
+<table>
+<tr>
+<td>First Name:</td><td> <input type="text" name="fname"></td>
+</tr>
+<tr>
+<td>Last Name: </td><td><input type="text" name="lname"></td>
+</tr>
+<tr>
+<td>
+Class:</td><td><select name="class">
+    <option value="classA">Class A</option>
+    <option value="classB">Class B</option>
+	 <option value="classC">Class C</option>
+</select></td>
+</tr>
+<tr>
+<td></td><td><input type="submit" value="submit"></td>
+</tr>
+</table>
+</form>
 
 </body>
 </html>

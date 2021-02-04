@@ -9,7 +9,6 @@ import javax.persistence.Id;
 import javax.persistence.OneToMany;
 import javax.persistence.Table;
 @Entity
-@Table(name = "instructor")
 public class Instructor {
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -21,41 +20,45 @@ public class Instructor {
 	@OneToMany(mappedBy = "instractor")
 	Set<Classes> classes;
 
+
 	public int getId() {
 		return id;
 	}
+
 
 	public void setId(int id) {
 		this.id = id;
 	}
 
-	
 
 	public String getFname() {
 		return fname;
 	}
 
+
 	public void setFname(String fname) {
 		this.fname = fname;
 	}
+
 
 	public String getLname() {
 		return lname;
 	}
 
+
 	public void setLname(String lname) {
 		this.lname = lname;
 	}
+
 
 	public Set<Classes> getClasses() {
 		return classes;
 	}
 
+
 	public void setClasses(Set<Classes> classes) {
 		this.classes = classes;
 	}
-	
-	
-	
 
+	
 }

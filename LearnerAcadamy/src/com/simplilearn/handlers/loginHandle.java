@@ -13,8 +13,14 @@ import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 
 import com.simplilearn.model.Classes;
+import com.simplilearn.model.Course;
+import com.simplilearn.model.Instructor;
+import com.simplilearn.model.Student;
 import com.simplilearn.model.User;
 import com.simplilearn.repository.ClassRepository;
+import com.simplilearn.repository.CourseRepository;
+import com.simplilearn.repository.InstructorRepository;
+import com.simplilearn.repository.StudentReposetory;
 import com.simplilearn.repository.UserRepository;
 
 @WebServlet("/loginHandle")
@@ -36,9 +42,29 @@ public class loginHandle extends HttpServlet {
 		
 		
 		if(user!=null && user.getPassword().equals(password)) {
+			
+			
+			CourseRepository courseRepository = new CourseRepository();
+			List<Course> courses=courseRepository.getAll();
+			session.setAttribute("courseList", courses);
+			
+			StudentReposetory studentReposetory = new StudentReposetory();
+			List<Student> students = studentReposetory.getAll();
+			session.setAttribute("studentList", students);
+			
+			InstructorRepository instructorRepository = new InstructorRepository();
+			List<Instructor> instructors = instructorRepository.getAll();
+			session.setAttribute("instructorList", instructors);
+			
+			
 			ClassRepository classRepository=new ClassRepository();
 			List<Classes>classesList = classRepository.getAll();
 			session.setAttribute("classesList", classesList);
+			
+			
+			
+			
+			
 			response.sendRedirect("Dashboard.jsp");
 		}else {
 			session.setAttribute("errorinfo", "Either username or password is not correct.");

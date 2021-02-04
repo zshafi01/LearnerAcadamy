@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta charset="ISO-8859-1">
-<title>Insert title here</title>
+<title>Logn in page</title>
 </head>
 <body>
 <div class="container">
@@ -16,12 +16,14 @@
 
 <div>
 <form method="post" action="loginHandle">
+<table>
+<tr><td>Email<td><td><input type="email" name="email"><td></tr>
+<tr><td>Password<td><td><input type="password" name="password"><td></tr>
+<tr><td colspan="2"><input type="submit" value="Login"></td></tr>
+</table>
 
-Email<input type="email" name="email"><br/>
-Password<input type="password" name="password"><br/>
 
 
-<input type="submit" value="Login">
 </form>
 </div>
 

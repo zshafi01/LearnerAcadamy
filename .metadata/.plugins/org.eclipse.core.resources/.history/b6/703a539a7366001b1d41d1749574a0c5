@@ -1,0 +1,51 @@
+package com.simplilearn.handlers;
+
+import java.io.IOException;
+import java.io.PrintWriter;
+
+import javax.servlet.ServletException;
+import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+import com.simplilearn.model.Instructor;
+import com.simplilearn.model.Student;
+import com.simplilearn.repository.InstructorRepository;
+
+/**
+ * Servlet implementation class sudentHandler
+ */
+@WebServlet("/sudentHandler")
+public class sudentHandler extends HttpServlet {
+	private static final long serialVersionUID = 1L;
+
+	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		
+		PrintWriter out = response.getWriter();
+		
+		String fname = request.getParameter("fname");
+		String lname = request.getParameter("lname");
+		
+//		Set<Classes> cls= request.getParameter("class");
+		Student student = new Student();
+		student.setFname(fname);
+		student.setLname(lname);
+	//	student.setClasses(cls);
+		
+		InstructorRepository instructorRepository = new InstructorRepository();
+		
+		boolean issaved = instructorRepository.insert(student);
+		if(issaved==true) {
+			response.sendRedirect("success");
+		}else {
+			response.sendRedirect("dashboard.jsp");
+		
+	}
+
+	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		// TODO Auto-generated method stub
+		doGet(request, response);
+	}
+
+}

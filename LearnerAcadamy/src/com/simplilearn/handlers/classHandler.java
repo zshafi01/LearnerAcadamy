@@ -4,12 +4,14 @@ import java.io.IOException;
 import java.io.PrintWriter;
 import java.sql.Date;
 import java.text.SimpleDateFormat;
+import java.util.List;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+import javax.servlet.http.HttpSession;
 
 import com.simplilearn.model.Classes;
 import com.simplilearn.model.Course;
@@ -30,32 +32,32 @@ public class classHandler extends HttpServlet {
 		PrintWriter out= response.getWriter();
 		//out.println("log in page");
 	
-		String a =request.getParameter("c_year");
-//		SimpleDateFormat simpleDateFormat = new SimpleDateFormat();
-//		Date c_year= (Date)simpleDateFormat.parse(a);
+		String year =request.getParameter("c_year");
 		String c_semester=request.getParameter("c_semester");
-		String c_subject=request.getParameter("c_subject");
 
-//		String instructor=request.getParameter("instructor");
-//		String course=request.getParameter("course");
-//		String student=request.getParameter("student");
+
+		String instructorid=request.getParameter("instructor");
+		String courseid=request.getParameter("course");
+//		String studentid=request.getParameter("student");
 
 		Classes classes = new Classes();
-//		classes.setYear(c_year);
+		classes.setYear(year);
 		classes.setSemester(c_semester);
-		classes.setSubject(c_subject);
 //		classes.setInstractor(instructor);
 //		classes.setcourse(course);
 //		classes.setstudent(student);
 //		
 
 		ClassRepository classRepository=new ClassRepository();
-		boolean issaved = classRepository.insert(classes);
+		boolean issaved = classRepository.insert(classes,Integer.parseInt(instructorid), Integer.parseInt(courseid));
 		
 		if (issaved==true) {
-			response.sendRedirect("success");
-		}else {
+			List<Classes>classesList = classRepository.getAll();
+			HttpSession session = request.getSession();
+			session.setAttribute("classesList", classesList);
 			response.sendRedirect("Dashboard.jsp");
+		}else {
+			response.sendRedirect("Error.jsp");
 			
 		}}
 

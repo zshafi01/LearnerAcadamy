@@ -1257,3 +1257,348 @@ org.eclipse.core.runtime.CoreException: Could not resolve artifact org.hibernate
 2021-02-03 02:33:15,307 [Worker-99: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\biliy\Desktop\Simple learing\phase2-project\LearnerAcadamy\src\main\resources
 2021-02-03 02:33:15,308 [Worker-99: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
 2021-02-03 02:33:15,318 [Worker-99: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\biliy\Desktop\Simple learing\phase2-project\LearnerAcadamy\src\test\resources
+2021-02-03 13:33:25,585 [Worker-108: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-02-03 13:33:25,595 [Worker-108: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\biliy\Desktop\Simple learing\phase2-project\LearnerAcadamy\src\main\resources
+2021-02-03 13:33:25,597 [Worker-108: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-02-03 13:33:25,608 [Worker-108: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\biliy\Desktop\Simple learing\phase2-project\LearnerAcadamy\src\test\resources
+2021-02-03 13:36:48,971 [Worker-96: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-02-03 13:36:48,981 [Worker-96: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\biliy\Desktop\Simple learing\phase2-project\LearnerAcadamy\src\main\resources
+2021-02-03 13:36:48,982 [Worker-96: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-02-03 13:36:48,989 [Worker-96: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\biliy\Desktop\Simple learing\phase2-project\LearnerAcadamy\src\test\resources
+2021-02-03 13:42:48,569 [Worker-96: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-02-03 13:42:48,576 [Worker-96: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\biliy\Desktop\Simple learing\phase2-project\LearnerAcadamy\src\main\resources
+2021-02-03 13:42:48,577 [Worker-96: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-02-03 13:42:48,584 [Worker-96: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\biliy\Desktop\Simple learing\phase2-project\LearnerAcadamy\src\test\resources
+2021-02-03 13:44:50,194 [Worker-96: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-02-03 13:44:50,201 [Worker-96: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\biliy\Desktop\Simple learing\phase2-project\LearnerAcadamy\src\main\resources
+2021-02-03 13:44:50,202 [Worker-96: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-02-03 13:44:50,209 [Worker-96: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\biliy\Desktop\Simple learing\phase2-project\LearnerAcadamy\src\test\resources
+2021-02-03 14:05:15,821 [Worker-126: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-02-03 14:05:15,889 [Worker-126: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\biliy\Desktop\Simple learing\phase2-project\LearnerAcadamy\src\main\resources
+2021-02-03 14:05:15,890 [Worker-126: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-02-03 14:05:15,899 [Worker-126: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\biliy\Desktop\Simple learing\phase2-project\LearnerAcadamy\src\test\resources
+2021-02-03 14:25:21,609 [Worker-125: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-02-03 14:25:21,619 [Worker-125: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\biliy\Desktop\Simple learing\phase2-project\LearnerAcadamy\src\main\resources
+2021-02-03 14:25:21,620 [Worker-125: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-02-03 14:25:21,630 [Worker-125: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\biliy\Desktop\Simple learing\phase2-project\LearnerAcadamy\src\test\resources
+2021-02-03 14:26:25,649 [Worker-125: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-02-03 14:26:25,660 [Worker-125: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\biliy\Desktop\Simple learing\phase2-project\LearnerAcadamy\src\main\resources
+2021-02-03 14:26:25,662 [Worker-125: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-02-03 14:26:25,669 [Worker-125: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\biliy\Desktop\Simple learing\phase2-project\LearnerAcadamy\src\test\resources
+2021-02-03 15:12:01,760 [Worker-145: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-02-03 15:12:01,771 [Worker-145: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\biliy\Desktop\Simple learing\phase2-project\LearnerAcadamy\src\main\resources
+2021-02-03 15:12:01,773 [Worker-145: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-02-03 15:12:01,784 [Worker-145: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\biliy\Desktop\Simple learing\phase2-project\LearnerAcadamy\src\test\resources
+2021-02-03 15:13:08,363 [Worker-143: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-02-03 15:13:08,371 [Worker-143: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\biliy\Desktop\Simple learing\phase2-project\LearnerAcadamy\src\main\resources
+2021-02-03 15:13:08,372 [Worker-143: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-02-03 15:13:08,381 [Worker-143: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\biliy\Desktop\Simple learing\phase2-project\LearnerAcadamy\src\test\resources
+2021-02-03 15:13:58,052 [Worker-145: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-02-03 15:13:58,059 [Worker-145: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\biliy\Desktop\Simple learing\phase2-project\LearnerAcadamy\src\main\resources
+2021-02-03 15:13:58,061 [Worker-145: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-02-03 15:13:58,070 [Worker-145: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\biliy\Desktop\Simple learing\phase2-project\LearnerAcadamy\src\test\resources
+2021-02-03 15:14:24,428 [Worker-143: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-02-03 15:14:24,450 [Worker-143: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\biliy\Desktop\Simple learing\phase2-project\LearnerAcadamy\src\main\resources
+2021-02-03 15:14:24,451 [Worker-143: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-02-03 15:14:24,458 [Worker-143: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\biliy\Desktop\Simple learing\phase2-project\LearnerAcadamy\src\test\resources
+2021-02-03 15:14:57,613 [Worker-145: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-02-03 15:14:57,622 [Worker-145: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\biliy\Desktop\Simple learing\phase2-project\LearnerAcadamy\src\main\resources
+2021-02-03 15:14:57,623 [Worker-145: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-02-03 15:14:57,631 [Worker-145: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\biliy\Desktop\Simple learing\phase2-project\LearnerAcadamy\src\test\resources
+2021-02-03 15:15:49,590 [Worker-145: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-02-03 15:15:49,602 [Worker-145: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\biliy\Desktop\Simple learing\phase2-project\LearnerAcadamy\src\main\resources
+2021-02-03 15:15:49,603 [Worker-145: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-02-03 15:15:49,612 [Worker-145: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\biliy\Desktop\Simple learing\phase2-project\LearnerAcadamy\src\test\resources
+2021-02-03 15:16:04,721 [Worker-143: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-02-03 15:16:04,730 [Worker-143: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\biliy\Desktop\Simple learing\phase2-project\LearnerAcadamy\src\main\resources
+2021-02-03 15:16:04,731 [Worker-143: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-02-03 15:16:04,739 [Worker-143: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\biliy\Desktop\Simple learing\phase2-project\LearnerAcadamy\src\test\resources
+2021-02-03 15:17:09,667 [Worker-146: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-02-03 15:17:09,677 [Worker-146: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\biliy\Desktop\Simple learing\phase2-project\LearnerAcadamy\src\main\resources
+2021-02-03 15:17:09,680 [Worker-146: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-02-03 15:17:09,689 [Worker-146: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\biliy\Desktop\Simple learing\phase2-project\LearnerAcadamy\src\test\resources
+2021-02-03 15:17:29,047 [Worker-149: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-02-03 15:17:29,055 [Worker-149: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\biliy\Desktop\Simple learing\phase2-project\LearnerAcadamy\src\main\resources
+2021-02-03 15:17:29,056 [Worker-149: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-02-03 15:17:29,063 [Worker-149: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\biliy\Desktop\Simple learing\phase2-project\LearnerAcadamy\src\test\resources
+2021-02-03 15:21:18,106 [Worker-145: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-02-03 15:21:18,116 [Worker-145: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\biliy\Desktop\Simple learing\phase2-project\LearnerAcadamy\src\main\resources
+2021-02-03 15:21:18,117 [Worker-145: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-02-03 15:21:18,127 [Worker-145: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\biliy\Desktop\Simple learing\phase2-project\LearnerAcadamy\src\test\resources
+2021-02-03 15:25:16,754 [Worker-146: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-02-03 15:25:16,762 [Worker-146: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\biliy\Desktop\Simple learing\phase2-project\LearnerAcadamy\src\main\resources
+2021-02-03 15:25:16,763 [Worker-146: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-02-03 15:25:16,770 [Worker-146: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\biliy\Desktop\Simple learing\phase2-project\LearnerAcadamy\src\test\resources
+2021-02-03 15:33:50,436 [Worker-152: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-02-03 15:33:50,445 [Worker-152: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\biliy\Desktop\Simple learing\phase2-project\LearnerAcadamy\src\main\resources
+2021-02-03 15:33:50,446 [Worker-152: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-02-03 15:33:50,455 [Worker-152: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\biliy\Desktop\Simple learing\phase2-project\LearnerAcadamy\src\test\resources
+2021-02-03 15:40:40,611 [Worker-145: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-02-03 15:40:40,620 [Worker-145: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\biliy\Desktop\Simple learing\phase2-project\LearnerAcadamy\src\main\resources
+2021-02-03 15:40:40,634 [Worker-145: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-02-03 15:40:40,643 [Worker-145: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\biliy\Desktop\Simple learing\phase2-project\LearnerAcadamy\src\test\resources
+2021-02-03 15:56:31,584 [Worker-160: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-02-03 15:56:31,594 [Worker-160: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\biliy\Desktop\Simple learing\phase2-project\LearnerAcadamy\src\main\resources
+2021-02-03 15:56:31,595 [Worker-160: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-02-03 15:56:31,609 [Worker-160: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\biliy\Desktop\Simple learing\phase2-project\LearnerAcadamy\src\test\resources
+2021-02-03 16:06:57,727 [Worker-163: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-02-03 16:06:57,742 [Worker-163: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\biliy\Desktop\Simple learing\phase2-project\LearnerAcadamy\src\main\resources
+2021-02-03 16:06:57,743 [Worker-163: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-02-03 16:06:57,753 [Worker-163: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\biliy\Desktop\Simple learing\phase2-project\LearnerAcadamy\src\test\resources
+2021-02-03 16:08:07,143 [Worker-167: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-02-03 16:08:07,155 [Worker-167: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\biliy\Desktop\Simple learing\phase2-project\LearnerAcadamy\src\main\resources
+2021-02-03 16:08:07,158 [Worker-167: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-02-03 16:08:07,167 [Worker-167: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\biliy\Desktop\Simple learing\phase2-project\LearnerAcadamy\src\test\resources
+2021-02-03 16:12:49,571 [Worker-168: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-02-03 16:12:49,581 [Worker-168: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\biliy\Desktop\Simple learing\phase2-project\LearnerAcadamy\src\main\resources
+2021-02-03 16:12:49,582 [Worker-168: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-02-03 16:12:49,592 [Worker-168: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\biliy\Desktop\Simple learing\phase2-project\LearnerAcadamy\src\test\resources
+2021-02-03 16:16:22,296 [Worker-170: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-02-03 16:16:22,306 [Worker-170: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\biliy\Desktop\Simple learing\phase2-project\LearnerAcadamy\src\main\resources
+2021-02-03 16:16:22,307 [Worker-170: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-02-03 16:16:22,314 [Worker-170: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\biliy\Desktop\Simple learing\phase2-project\LearnerAcadamy\src\test\resources
+2021-02-03 16:19:19,822 [Worker-172: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-02-03 16:19:19,834 [Worker-172: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\biliy\Desktop\Simple learing\phase2-project\LearnerAcadamy\src\main\resources
+2021-02-03 16:19:19,835 [Worker-172: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-02-03 16:19:19,845 [Worker-172: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\biliy\Desktop\Simple learing\phase2-project\LearnerAcadamy\src\test\resources
+2021-02-03 16:20:47,416 [Worker-172: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-02-03 16:20:47,427 [Worker-172: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\biliy\Desktop\Simple learing\phase2-project\LearnerAcadamy\src\main\resources
+2021-02-03 16:20:47,429 [Worker-172: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-02-03 16:20:47,435 [Worker-172: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\biliy\Desktop\Simple learing\phase2-project\LearnerAcadamy\src\test\resources
+2021-02-03 16:26:53,964 [Worker-179: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-02-03 16:26:53,975 [Worker-179: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\biliy\Desktop\Simple learing\phase2-project\LearnerAcadamy\src\main\resources
+2021-02-03 16:26:53,976 [Worker-179: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-02-03 16:26:53,986 [Worker-179: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\biliy\Desktop\Simple learing\phase2-project\LearnerAcadamy\src\test\resources
+2021-02-03 16:27:48,070 [Worker-180: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-02-03 16:27:48,080 [Worker-180: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\biliy\Desktop\Simple learing\phase2-project\LearnerAcadamy\src\main\resources
+2021-02-03 16:27:48,081 [Worker-180: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-02-03 16:27:48,087 [Worker-180: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\biliy\Desktop\Simple learing\phase2-project\LearnerAcadamy\src\test\resources
+2021-02-03 16:34:13,147 [Worker-175: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-02-03 16:34:13,157 [Worker-175: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\biliy\Desktop\Simple learing\phase2-project\LearnerAcadamy\src\main\resources
+2021-02-03 16:34:13,159 [Worker-175: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-02-03 16:34:13,166 [Worker-175: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\biliy\Desktop\Simple learing\phase2-project\LearnerAcadamy\src\test\resources
+2021-02-03 16:35:51,992 [Worker-181: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-02-03 16:35:52,006 [Worker-181: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\biliy\Desktop\Simple learing\phase2-project\LearnerAcadamy\src\main\resources
+2021-02-03 16:35:52,006 [Worker-181: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-02-03 16:35:52,014 [Worker-181: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\biliy\Desktop\Simple learing\phase2-project\LearnerAcadamy\src\test\resources
+2021-02-03 16:37:47,971 [Worker-180: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-02-03 16:37:47,984 [Worker-180: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\biliy\Desktop\Simple learing\phase2-project\LearnerAcadamy\src\main\resources
+2021-02-03 16:37:47,985 [Worker-180: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-02-03 16:37:47,994 [Worker-180: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\biliy\Desktop\Simple learing\phase2-project\LearnerAcadamy\src\test\resources
+2021-02-03 16:42:52,022 [Worker-179: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-02-03 16:42:52,043 [Worker-179: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\biliy\Desktop\Simple learing\phase2-project\LearnerAcadamy\src\main\resources
+2021-02-03 16:42:52,044 [Worker-179: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-02-03 16:42:52,056 [Worker-179: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\biliy\Desktop\Simple learing\phase2-project\LearnerAcadamy\src\test\resources
+2021-02-03 16:54:06,169 [Worker-185: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-02-03 16:54:06,183 [Worker-185: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\biliy\Desktop\Simple learing\phase2-project\LearnerAcadamy\src\main\resources
+2021-02-03 16:54:06,184 [Worker-185: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-02-03 16:54:06,185 [Worker-185: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\biliy\Desktop\Simple learing\phase2-project\LearnerAcadamy\src\test\resources
+2021-02-03 16:54:33,039 [Worker-183: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-02-03 16:54:33,051 [Worker-183: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\biliy\Desktop\Simple learing\phase2-project\LearnerAcadamy\src\main\resources
+2021-02-03 16:54:33,053 [Worker-183: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-02-03 16:54:33,061 [Worker-183: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\biliy\Desktop\Simple learing\phase2-project\LearnerAcadamy\src\test\resources
+2021-02-03 16:57:54,379 [Worker-183: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-02-03 16:57:54,391 [Worker-183: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\biliy\Desktop\Simple learing\phase2-project\LearnerAcadamy\src\main\resources
+2021-02-03 16:57:54,392 [Worker-183: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-02-03 16:57:54,403 [Worker-183: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\biliy\Desktop\Simple learing\phase2-project\LearnerAcadamy\src\test\resources
+2021-02-03 17:00:26,395 [Worker-188: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-02-03 17:00:26,402 [Worker-188: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\biliy\Desktop\Simple learing\phase2-project\LearnerAcadamy\src\main\resources
+2021-02-03 17:00:26,403 [Worker-188: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-02-03 17:00:26,410 [Worker-188: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\biliy\Desktop\Simple learing\phase2-project\LearnerAcadamy\src\test\resources
+2021-02-03 17:02:06,069 [Worker-186: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-02-03 17:02:06,079 [Worker-186: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\biliy\Desktop\Simple learing\phase2-project\LearnerAcadamy\src\main\resources
+2021-02-03 17:02:06,080 [Worker-186: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-02-03 17:02:06,089 [Worker-186: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\biliy\Desktop\Simple learing\phase2-project\LearnerAcadamy\src\test\resources
+2021-02-03 20:01:09,919 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2021-02-03 20:01:12,361 [Worker-6: Repository registry initialization] ERROR o.e.m.c.i.i.nexus.NexusIndexManager - Error changing index details central|https://repo.maven.apache.org/maven2
+java.nio.file.FileSystemException: C:\Users\biliy\Desktop\Simple learing\phase2-project\.metadata\.plugins\org.eclipse.m2e.core\nexus\05b0fe8524860bd73cbb07ef30fb34cc\pending_segments_1 -> C:\Users\biliy\Desktop\Simple learing\phase2-project\.metadata\.plugins\org.eclipse.m2e.core\nexus\05b0fe8524860bd73cbb07ef30fb34cc\segments_1: The process cannot access the file because it is being used by another process
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:92)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsFileCopy.move(WindowsFileCopy.java:309)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.move(WindowsFileSystemProvider.java:292)
+	at java.base/java.nio.file.Files.move(Files.java:1426)
+	at org.apache.lucene.store.FSDirectory.renameFile(FSDirectory.java:239)
+	at org.apache.lucene.store.LockValidatingDirectoryWrapper.renameFile(LockValidatingDirectoryWrapper.java:56)
+	at org.apache.lucene.index.SegmentInfos.finishCommit(SegmentInfos.java:851)
+	at org.apache.lucene.index.IndexWriter.finishCommit(IndexWriter.java:3006)
+	at org.apache.lucene.index.IndexWriter.commitInternal(IndexWriter.java:2977)
+	at org.apache.lucene.index.IndexWriter.commit(IndexWriter.java:2935)
+	at org.apache.maven.index.context.DefaultIndexingContext.openAndWarmup(DefaultIndexingContext.java:532)
+	at org.apache.maven.index.context.DefaultIndexingContext.prepareCleanIndex(DefaultIndexingContext.java:287)
+	at org.apache.maven.index.context.DefaultIndexingContext.prepareIndex(DefaultIndexingContext.java:265)
+	at org.apache.maven.index.context.DefaultIndexingContext.<init>(DefaultIndexingContext.java:162)
+	at org.apache.maven.index.context.DefaultIndexingContext.<init>(DefaultIndexingContext.java:193)
+	at org.apache.maven.index.DefaultNexusIndexer.addIndexingContextForced(DefaultNexusIndexer.java:155)
+	at org.eclipse.m2e.core.internal.index.nexus.NexusIndexManager.createIndexingContext(NexusIndexManager.java:964)
+	at org.eclipse.m2e.core.internal.index.nexus.NexusIndexManager.setIndexDetails(NexusIndexManager.java:931)
+	at org.eclipse.m2e.core.internal.index.nexus.NexusIndexManager.repositoryAdded(NexusIndexManager.java:877)
+	at org.eclipse.m2e.core.internal.repository.RepositoryRegistry.addRepository(RepositoryRegistry.java:165)
+	at org.eclipse.m2e.core.internal.repository.RepositoryRegistry.updateRegistry(RepositoryRegistry.java:265)
+	at org.eclipse.m2e.core.internal.repository.RepositoryRegistryUpdateJob.run(RepositoryRegistryUpdateJob.java:49)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2021-02-03 20:01:12,371 [Worker-6: Repository registry initialization] ERROR o.e.m.c.i.r.RepositoryRegistry - Could not add repository index
+org.eclipse.core.runtime.CoreException: Could not add repository index
+	at org.eclipse.m2e.core.internal.index.nexus.NexusIndexManager.setIndexDetails(NexusIndexManager.java:944)
+	at org.eclipse.m2e.core.internal.index.nexus.NexusIndexManager.repositoryAdded(NexusIndexManager.java:877)
+	at org.eclipse.m2e.core.internal.repository.RepositoryRegistry.addRepository(RepositoryRegistry.java:165)
+	at org.eclipse.m2e.core.internal.repository.RepositoryRegistry.updateRegistry(RepositoryRegistry.java:265)
+	at org.eclipse.m2e.core.internal.repository.RepositoryRegistryUpdateJob.run(RepositoryRegistryUpdateJob.java:49)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.nio.file.FileSystemException: C:\Users\biliy\Desktop\Simple learing\phase2-project\.metadata\.plugins\org.eclipse.m2e.core\nexus\05b0fe8524860bd73cbb07ef30fb34cc\pending_segments_1 -> C:\Users\biliy\Desktop\Simple learing\phase2-project\.metadata\.plugins\org.eclipse.m2e.core\nexus\05b0fe8524860bd73cbb07ef30fb34cc\segments_1: The process cannot access the file because it is being used by another process
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:92)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsFileCopy.move(WindowsFileCopy.java:309)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.move(WindowsFileSystemProvider.java:292)
+	at java.base/java.nio.file.Files.move(Files.java:1426)
+	at org.apache.lucene.store.FSDirectory.renameFile(FSDirectory.java:239)
+	at org.apache.lucene.store.LockValidatingDirectoryWrapper.renameFile(LockValidatingDirectoryWrapper.java:56)
+	at org.apache.lucene.index.SegmentInfos.finishCommit(SegmentInfos.java:851)
+	at org.apache.lucene.index.IndexWriter.finishCommit(IndexWriter.java:3006)
+	at org.apache.lucene.index.IndexWriter.commitInternal(IndexWriter.java:2977)
+	at org.apache.lucene.index.IndexWriter.commit(IndexWriter.java:2935)
+	at org.apache.maven.index.context.DefaultIndexingContext.openAndWarmup(DefaultIndexingContext.java:532)
+	at org.apache.maven.index.context.DefaultIndexingContext.prepareCleanIndex(DefaultIndexingContext.java:287)
+	at org.apache.maven.index.context.DefaultIndexingContext.prepareIndex(DefaultIndexingContext.java:265)
+	at org.apache.maven.index.context.DefaultIndexingContext.<init>(DefaultIndexingContext.java:162)
+	at org.apache.maven.index.context.DefaultIndexingContext.<init>(DefaultIndexingContext.java:193)
+	at org.apache.maven.index.DefaultNexusIndexer.addIndexingContextForced(DefaultNexusIndexer.java:155)
+	at org.eclipse.m2e.core.internal.index.nexus.NexusIndexManager.createIndexingContext(NexusIndexManager.java:964)
+	at org.eclipse.m2e.core.internal.index.nexus.NexusIndexManager.setIndexDetails(NexusIndexManager.java:931)
+	... 5 common frames omitted
+2021-02-03 20:02:55,489 [Worker-9: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-02-03 20:02:55,496 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\biliy\Desktop\Simple learing\phase2-project\LearnerAcadamy\src\main\resources
+2021-02-03 20:02:55,498 [Worker-9: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-02-03 20:02:55,504 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\biliy\Desktop\Simple learing\phase2-project\LearnerAcadamy\src\test\resources
+2021-02-03 20:08:57,463 [Worker-1: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-02-03 20:08:57,475 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\biliy\Desktop\Simple learing\phase2-project\LearnerAcadamy\src\main\resources
+2021-02-03 20:08:57,477 [Worker-1: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-02-03 20:08:57,488 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\biliy\Desktop\Simple learing\phase2-project\LearnerAcadamy\src\test\resources
+2021-02-03 20:16:15,126 [Worker-8: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-02-03 20:16:15,136 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\biliy\Desktop\Simple learing\phase2-project\LearnerAcadamy\src\main\resources
+2021-02-03 20:16:15,137 [Worker-8: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-02-03 20:16:15,147 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\biliy\Desktop\Simple learing\phase2-project\LearnerAcadamy\src\test\resources
+2021-02-03 20:23:56,968 [Worker-8: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-02-03 20:23:56,977 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\biliy\Desktop\Simple learing\phase2-project\LearnerAcadamy\src\main\resources
+2021-02-03 20:23:56,979 [Worker-8: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-02-03 20:23:56,986 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\biliy\Desktop\Simple learing\phase2-project\LearnerAcadamy\src\test\resources
+2021-02-03 20:27:29,311 [Worker-8: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-02-03 20:27:29,325 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\biliy\Desktop\Simple learing\phase2-project\LearnerAcadamy\src\main\resources
+2021-02-03 20:27:29,327 [Worker-8: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-02-03 20:27:29,337 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\biliy\Desktop\Simple learing\phase2-project\LearnerAcadamy\src\test\resources
+2021-02-03 20:34:38,254 [Worker-16: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-02-03 20:34:38,269 [Worker-16: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\biliy\Desktop\Simple learing\phase2-project\LearnerAcadamy\src\main\resources
+2021-02-03 20:34:38,271 [Worker-16: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-02-03 20:34:38,278 [Worker-16: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\biliy\Desktop\Simple learing\phase2-project\LearnerAcadamy\src\test\resources
+2021-02-03 20:37:58,905 [Start Help Server] INFO  org.eclipse.jetty.util.log - Logging initialized @2245590ms to org.eclipse.jetty.util.log.Slf4jLog
+2021-02-03 20:37:59,114 [Start Help Server] INFO  org.eclipse.jetty.server.Server - jetty-9.4.35.v20201120; built: 2020-11-27T20:36:51.615Z; git: bdc54f03a5e0a7e280fab27f55c3c75ee8da89fb; jvm 15.0.1+9-18
+2021-02-03 20:37:59,134 [Start Help Server] INFO  org.eclipse.jetty.server.session - DefaultSessionIdManager workerName=node0
+2021-02-03 20:37:59,134 [Start Help Server] INFO  org.eclipse.jetty.server.session - No SessionScavenger set, using defaults
+2021-02-03 20:37:59,136 [Start Help Server] INFO  org.eclipse.jetty.server.session - node0 Scavenging every 600000ms
+2021-02-03 20:37:59,165 [Start Help Server] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@5d89f0eb{/help,null,AVAILABLE}
+2021-02-03 20:37:59,209 [Start Help Server] INFO  o.e.jetty.server.AbstractConnector - Started ServerConnector@7ee0ef18{HTTP/1.1, (http/1.1)}{127.0.0.1:50334}
+2021-02-03 20:37:59,210 [Start Help Server] INFO  org.eclipse.jetty.server.Server - Started @2245896ms
+2021-02-03 20:37:59,210 [Start Help Server] INFO  org.eclipse.jetty.server.session - node0 Scavenging every 660000ms
+2021-02-03 20:40:00,802 [Worker-16: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-02-03 20:40:00,813 [Worker-16: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\biliy\Desktop\Simple learing\phase2-project\LearnerAcadamy\src\main\resources
+2021-02-03 20:40:00,815 [Worker-16: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-02-03 20:40:00,825 [Worker-16: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\biliy\Desktop\Simple learing\phase2-project\LearnerAcadamy\src\test\resources
+2021-02-03 20:40:15,663 [Worker-16: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-02-03 20:40:15,672 [Worker-16: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\biliy\Desktop\Simple learing\phase2-project\LearnerAcadamy\src\main\resources
+2021-02-03 20:40:15,674 [Worker-16: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-02-03 20:40:15,681 [Worker-16: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\biliy\Desktop\Simple learing\phase2-project\LearnerAcadamy\src\test\resources
+2021-02-03 20:42:59,272 [Worker-25: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-02-03 20:42:59,279 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\biliy\Desktop\Simple learing\phase2-project\LearnerAcadamy\src\main\resources
+2021-02-03 20:42:59,281 [Worker-25: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-02-03 20:42:59,288 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\biliy\Desktop\Simple learing\phase2-project\LearnerAcadamy\src\test\resources
+2021-02-03 20:45:35,458 [Worker-31: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-02-03 20:45:35,469 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\biliy\Desktop\Simple learing\phase2-project\LearnerAcadamy\src\main\resources
+2021-02-03 20:45:35,470 [Worker-31: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-02-03 20:45:35,478 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\biliy\Desktop\Simple learing\phase2-project\LearnerAcadamy\src\test\resources
+2021-02-03 20:49:55,614 [Worker-31: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-02-03 20:49:55,623 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\biliy\Desktop\Simple learing\phase2-project\LearnerAcadamy\src\main\resources
+2021-02-03 20:49:55,625 [Worker-31: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-02-03 20:49:55,635 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\biliy\Desktop\Simple learing\phase2-project\LearnerAcadamy\src\test\resources
+2021-02-03 20:54:31,102 [Worker-32: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-02-03 20:54:31,112 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\biliy\Desktop\Simple learing\phase2-project\LearnerAcadamy\src\main\resources
+2021-02-03 20:54:31,113 [Worker-32: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-02-03 20:54:31,120 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\biliy\Desktop\Simple learing\phase2-project\LearnerAcadamy\src\test\resources
+2021-02-03 21:00:43,481 [Worker-37: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-02-03 21:00:43,489 [Worker-37: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\biliy\Desktop\Simple learing\phase2-project\LearnerAcadamy\src\main\resources
+2021-02-03 21:00:43,490 [Worker-37: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-02-03 21:00:43,500 [Worker-37: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\biliy\Desktop\Simple learing\phase2-project\LearnerAcadamy\src\test\resources
+2021-02-03 21:03:14,193 [Worker-37: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-02-03 21:03:14,203 [Worker-37: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\biliy\Desktop\Simple learing\phase2-project\LearnerAcadamy\src\main\resources
+2021-02-03 21:03:14,204 [Worker-37: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-02-03 21:03:14,213 [Worker-37: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\biliy\Desktop\Simple learing\phase2-project\LearnerAcadamy\src\test\resources
+2021-02-03 21:06:26,075 [Worker-39: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-02-03 21:06:26,085 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\biliy\Desktop\Simple learing\phase2-project\LearnerAcadamy\src\main\resources
+2021-02-03 21:06:26,087 [Worker-39: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-02-03 21:06:26,093 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\biliy\Desktop\Simple learing\phase2-project\LearnerAcadamy\src\test\resources
+2021-02-03 21:11:51,824 [Worker-38: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-02-03 21:11:51,832 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\biliy\Desktop\Simple learing\phase2-project\LearnerAcadamy\src\main\resources
+2021-02-03 21:11:51,835 [Worker-38: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-02-03 21:11:51,844 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\biliy\Desktop\Simple learing\phase2-project\LearnerAcadamy\src\test\resources
+2021-02-03 21:11:57,838 [Worker-46: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-02-03 21:11:57,844 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\biliy\Desktop\Simple learing\phase2-project\LearnerAcadamy\src\main\resources
+2021-02-03 21:11:57,846 [Worker-46: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-02-03 21:11:57,855 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\biliy\Desktop\Simple learing\phase2-project\LearnerAcadamy\src\test\resources
+2021-02-03 21:19:56,027 [Worker-51: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-02-03 21:19:56,035 [Worker-51: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\biliy\Desktop\Simple learing\phase2-project\LearnerAcadamy\src\main\resources
+2021-02-03 21:19:56,037 [Worker-51: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-02-03 21:19:56,043 [Worker-51: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\biliy\Desktop\Simple learing\phase2-project\LearnerAcadamy\src\test\resources
+2021-02-03 21:21:53,041 [Worker-57: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-02-03 21:21:53,047 [Worker-57: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\biliy\Desktop\Simple learing\phase2-project\LearnerAcadamy\src\main\resources
+2021-02-03 21:21:53,048 [Worker-57: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-02-03 21:21:53,055 [Worker-57: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\biliy\Desktop\Simple learing\phase2-project\LearnerAcadamy\src\test\resources
+2021-02-03 21:33:29,756 [Worker-54: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-02-03 21:33:29,763 [Worker-54: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\biliy\Desktop\Simple learing\phase2-project\LearnerAcadamy\src\main\resources
+2021-02-03 21:33:29,764 [Worker-54: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-02-03 21:33:29,773 [Worker-54: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\biliy\Desktop\Simple learing\phase2-project\LearnerAcadamy\src\test\resources
+2021-02-03 21:42:33,250 [Worker-48: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-02-03 21:42:33,260 [Worker-48: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\biliy\Desktop\Simple learing\phase2-project\LearnerAcadamy\src\main\resources
+2021-02-03 21:42:33,262 [Worker-48: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-02-03 21:42:33,271 [Worker-48: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\biliy\Desktop\Simple learing\phase2-project\LearnerAcadamy\src\test\resources
+2021-02-03 21:43:25,069 [Worker-59: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-02-03 21:43:25,078 [Worker-59: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\biliy\Desktop\Simple learing\phase2-project\LearnerAcadamy\src\main\resources
+2021-02-03 21:43:25,079 [Worker-59: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-02-03 21:43:25,086 [Worker-59: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\biliy\Desktop\Simple learing\phase2-project\LearnerAcadamy\src\test\resources
+2021-02-03 21:49:54,048 [Worker-63: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-02-03 21:49:54,060 [Worker-63: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\biliy\Desktop\Simple learing\phase2-project\LearnerAcadamy\src\main\resources
+2021-02-03 21:49:54,061 [Worker-63: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-02-03 21:49:54,070 [Worker-63: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\biliy\Desktop\Simple learing\phase2-project\LearnerAcadamy\src\test\resources
+2021-02-03 21:56:21,993 [Worker-65: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-02-03 21:56:22,005 [Worker-65: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\biliy\Desktop\Simple learing\phase2-project\LearnerAcadamy\src\main\resources
+2021-02-03 21:56:22,007 [Worker-65: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-02-03 21:56:22,018 [Worker-65: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\biliy\Desktop\Simple learing\phase2-project\LearnerAcadamy\src\test\resources
+2021-02-03 21:56:48,376 [Worker-55: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-02-03 21:56:48,393 [Worker-55: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\biliy\Desktop\Simple learing\phase2-project\LearnerAcadamy\src\main\resources
+2021-02-03 21:56:48,395 [Worker-55: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-02-03 21:56:48,403 [Worker-55: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\biliy\Desktop\Simple learing\phase2-project\LearnerAcadamy\src\test\resources
+2021-02-03 22:01:30,387 [Worker-68: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-02-03 22:01:30,399 [Worker-68: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\biliy\Desktop\Simple learing\phase2-project\LearnerAcadamy\src\main\resources
+2021-02-03 22:01:30,401 [Worker-68: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-02-03 22:01:30,411 [Worker-68: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\biliy\Desktop\Simple learing\phase2-project\LearnerAcadamy\src\test\resources
+2021-02-03 22:11:22,156 [Worker-69: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-02-03 22:11:22,168 [Worker-69: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\biliy\Desktop\Simple learing\phase2-project\LearnerAcadamy\src\main\resources
+2021-02-03 22:11:22,169 [Worker-69: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-02-03 22:11:22,178 [Worker-69: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\biliy\Desktop\Simple learing\phase2-project\LearnerAcadamy\src\test\resources
+2021-02-03 22:11:47,804 [Worker-68: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-02-03 22:11:47,813 [Worker-68: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\biliy\Desktop\Simple learing\phase2-project\LearnerAcadamy\src\main\resources
+2021-02-03 22:11:47,814 [Worker-68: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-02-03 22:11:47,823 [Worker-68: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\biliy\Desktop\Simple learing\phase2-project\LearnerAcadamy\src\test\resources
+2021-02-03 22:11:59,208 [Worker-69: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-02-03 22:11:59,216 [Worker-69: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\biliy\Desktop\Simple learing\phase2-project\LearnerAcadamy\src\main\resources
+2021-02-03 22:11:59,217 [Worker-69: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-02-03 22:11:59,224 [Worker-69: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\biliy\Desktop\Simple learing\phase2-project\LearnerAcadamy\src\test\resources
+2021-02-03 22:16:04,032 [Worker-69: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-02-03 22:16:04,039 [Worker-69: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\biliy\Desktop\Simple learing\phase2-project\LearnerAcadamy\src\main\resources
+2021-02-03 22:16:04,040 [Worker-69: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-02-03 22:16:04,046 [Worker-69: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\biliy\Desktop\Simple learing\phase2-project\LearnerAcadamy\src\test\resources
+2021-02-03 22:17:25,852 [Worker-72: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-02-03 22:17:25,862 [Worker-72: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\biliy\Desktop\Simple learing\phase2-project\LearnerAcadamy\src\main\resources
+2021-02-03 22:17:25,863 [Worker-72: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-02-03 22:17:25,872 [Worker-72: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\biliy\Desktop\Simple learing\phase2-project\LearnerAcadamy\src\test\resources
+2021-02-03 22:17:28,140 [Worker-69: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-02-03 22:17:28,147 [Worker-69: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\biliy\Desktop\Simple learing\phase2-project\LearnerAcadamy\src\main\resources
+2021-02-03 22:17:28,148 [Worker-69: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-02-03 22:17:28,154 [Worker-69: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\biliy\Desktop\Simple learing\phase2-project\LearnerAcadamy\src\test\resources
