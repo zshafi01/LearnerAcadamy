@@ -15,6 +15,7 @@ import javax.servlet.http.HttpSession;
 
 import com.simplilearn.model.Classes;
 import com.simplilearn.model.Course;
+import com.simplilearn.model.Instructor;
 import com.simplilearn.repository.ClassRepository;
 import com.simplilearn.repository.CourseRepository;
 
@@ -36,13 +37,15 @@ public class classHandler extends HttpServlet {
 		String c_semester=request.getParameter("c_semester");
 
 
-		String instructorid=request.getParameter("instructor");
+	String instructorid=request.getParameter("instructor");
 		String courseid=request.getParameter("course");
 //		String studentid=request.getParameter("student");
 
 		Classes classes = new Classes();
 		classes.setYear(year);
 		classes.setSemester(c_semester);
+		//classes.setInstractor(instructorid);
+		//classes.setCourse(courseid);
 //		classes.setInstractor(instructor);
 //		classes.setcourse(course);
 //		classes.setstudent(student);

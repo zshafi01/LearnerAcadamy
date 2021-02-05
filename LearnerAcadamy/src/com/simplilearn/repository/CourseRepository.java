@@ -5,6 +5,7 @@ import java.util.List;
 import org.hibernate.Session;
 import org.hibernate.Transaction;
 import org.hibernate.cfg.Configuration;
+import org.hibernate.query.Query;
 
 import com.simplilearn.model.Classes;
 import com.simplilearn.model.Course;
@@ -56,10 +57,19 @@ public class CourseRepository {
 
 	
 	public Course getById(int id) {
-		// TODO Auto-generated method stub
-		return null;
+		Session session = getSession();
+		Transaction transaction = session.beginTransaction();
+		Query query = session.createQuery("FROM Course where id=:id");
+		query.setParameter("id", id);
+		List resultList = query.getResultList();
+		Course crs=null;
+		if(resultList!=null && !resultList.isEmpty()) {
+		crs= (Course)resultList.get(0);
+		}
+		transaction.commit();
+		session.close();
+		return crs;
 	}
-
 	
 	public Course getByName(String name) {
 		// TODO Auto-generated method stub

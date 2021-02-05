@@ -1,5 +1,5 @@
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
-    pageEncoding="ISO-8859-1" import="java.util.*,com.simplilearn.model.*"%>
+    pageEncoding="ISO-8859-1" import="java.util.*,com.simplilearn.model.*,com.simplilearn.repository.*"%>
 <!DOCTYPE html>
 <html>
 <head>
@@ -8,19 +8,32 @@
 </head>
 <body>
 <form method="post" action="courseHandler">
+<!--  -->
+
+<%
+List<Instructor> instructors=(List<Instructor>)session.getAttribute("instructorList");
+String command = request.getParameter("command");
+Course course=new Course();
+if(command!=null){
+	String id = request.getParameter("id");
+	CourseRepository courseRepository = new CourseRepository();
+	course=courseRepository.getById(Integer.parseInt(id));
+}
+%>
 <table>
 <tr>
-<td>Course Name:</td><td><input type="text" name="c_name"></td>
+<td>Course Title:</td><td><input type="text" name="c_name" value=<%=course.getTitle() %>></td>
 </tr>
 <tr>
-<td>Course hour:</td><td><input type="text" name="c_hour"></td>
+<td>Course hour:</td><td><input type="text" name="c_hour" value=<%=course.getHours() %>></td>
 </tr>
 <tr>
-<td>Course Price:</td><td><input type="text" name="c_price"></td>
+<td>Course Price:</td><td><input type="text" name="c_price" value=<%=course.getPrice()%>></td>
 </tr>
 <tr>
-<td>Course Description:</td><td><input type="text" name="c_desc"></td>
+<td>Course Description:</td><td><textarea name="c_desc" ><%=course.getDescription()%></textarea></td>
 </tr>
+<!--  
 <tr>
 <td>Instructor:</td><td><select name="instructor">
     <option value="fname1">Ezedin</option>
@@ -29,6 +42,19 @@
 </select></td>
 </tr>
 <tr>
+-->
+<td>Instructor:</td><td>
+
+
+<select name="instructor">
+<% for(Instructor instractor:instructors) { %>
+    <option value=<%=instractor.getId() %>><%=instractor.getFname() %></option>
+	 <%} %>
+</select>
+
+</td>
+</tr>
+
 <td>Class:</td><td><select name="class">
     <option value="classA">Class A</option>
     <option value="classB">Class B</option>
@@ -36,7 +62,21 @@
 </select>
 </td></tr>
 <tr>
-<td><input type="submit" value="submit"></td>
+<td>
+<%
+if(command!=null && "edit".equalsIgnoreCase(command)) {
+%>
+<input type="submit" value="Edit">
+<%
+} else if(command!=null && "delete".equalsIgnoreCase(command)) {
+%>
+<input type="submit" value="Delete">
+<% 
+}else{
+%>
+<input type="submit" value="Save">
+<%}%>
+</td>
 </tr>
 </table>
 </form>

@@ -5,6 +5,7 @@ import java.util.List;
 import org.hibernate.Session;
 import org.hibernate.Transaction;
 import org.hibernate.cfg.Configuration;
+import org.hibernate.query.Query;
 
 import com.simplilearn.model.Course;
 import com.simplilearn.model.Instructor;
@@ -58,8 +59,18 @@ public class InstructorRepository {
 
 	
 	public Instructor getById(int id) {
-		// TODO Auto-generated method stub
-		return null;
+		Session session = getSession();
+		Transaction transaction = session.beginTransaction();
+		Query query = session.createQuery("FROM Instructor where id=:id");
+		query.setParameter("id", id);
+		List resultList = query.getResultList();
+		Instructor ins=null;
+		if(resultList!=null && !resultList.isEmpty()) {
+		ins= (Instructor)resultList.get(0);
+		}
+		transaction.commit();
+		session.close();
+		return ins;
 	}
 
 	

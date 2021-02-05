@@ -1,5 +1,7 @@
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
-    pageEncoding="ISO-8859-1"%>
+    pageEncoding="ISO-8859-1"
+    import="java.util.*,com.simplilearn.model.*,com.simplilearn.repository.*"
+    %>
 <!DOCTYPE html>
 <html>
 <head>
@@ -8,23 +10,39 @@
 </head>
 <body>
 <form  method="post" action="sudentHandler">
+<%
+List<Student> students=(List<Student>)session.getAttribute("instructorList");
+String command = request.getParameter("command");
+Student student=new Student();
+if(command!=null){
+	String id = request.getParameter("id");
+	StudentReposetory studentReposetory = new StudentReposetory();
+	student=studentReposetory.getById(Integer.parseInt(id));
+}
+%>
 <table>
 <tr>
-<td>First Name:</td><td> <input type="text" name="fname"></td>
+<td>First Name:</td><td> <input type="text" name="fname" value=<%=student.getFname() %>></td>
 </tr>
 <tr>
-<td>Last Name: </td><td><input type="text" name="lname"></td>
+<td>Last Name: </td><td><input type="text" name="lname" value=<%=student.getLname() %>></td>
 </tr>
 <tr>
-<td>
-Class:</td><td><select name="class">
-    <option value="classA">Class A</option>
-    <option value="classB">Class B</option>
-	 <option value="classC">Class C</option>
-</select></td>
-</tr>
-<tr>
-<td></td><td><input type="submit" value="submit"></td>
+<td></td><td>
+<%
+if(command!=null && "edit".equalsIgnoreCase(command)) {
+%>
+<input type="submit" value="Edit">
+<%
+} else if(command!=null && "delete".equalsIgnoreCase(command)) {
+%>
+<input type="submit" value="Delete">
+<% 
+}else{
+%>
+<input type="submit" value="Save">
+<%}%>
+</td>
 </tr>
 </table>
 </form>
