@@ -19,7 +19,6 @@ public class UserRepository {
 	}
 
 	public boolean insert(User user) {
-		// TODO Auto-generated method stub
 		try {
 		Session session=getSession();
 		Transaction transaction = session.beginTransaction();
@@ -39,8 +38,6 @@ public class UserRepository {
 		Transaction transaction = session.beginTransaction();
 		List<User> users = session.createQuery("FROM User").list();
 	
-		
-		
 		transaction.commit();
 		session.close();
 		return users;
@@ -64,30 +61,13 @@ public class UserRepository {
 
 
 
-//	@Override
 //	public void update(User a) {
 //		// TODO Auto-generated method stub
 //		
-//	}
-//
-//	@Override
+
 //	public void delete(int a) {
 //		// TODO Auto-generated method stub
 //		
-//	}
-//
-//
-//
-//	@Override
-//	public User getById(int id) {
-//		// TODO Auto-generated method stub
-//		return null;
-//	}
-//
-//	@Override
-//	public User getByName(String name) {
-//		// TODO Auto-generated method stub
-//		return null;
 //	}
 
 }

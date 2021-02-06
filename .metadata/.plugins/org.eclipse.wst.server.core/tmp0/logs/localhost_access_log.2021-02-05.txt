@@ -1,0 +1,8 @@
+127.0.0.1 - - [05/Feb/2021:23:13:06 -0600] "GET / HTTP/1.1" 404 709
+0:0:0:0:0:0:0:1 - - [05/Feb/2021:23:13:07 -0600] "GET /LearnerAcadamy/ HTTP/1.1" 200 389
+0:0:0:0:0:0:0:1 - - [05/Feb/2021:23:15:30 -0600] "GET /LearnerAcadamy/login.jsp HTTP/1.1" 200 627
+0:0:0:0:0:0:0:1 - - [05/Feb/2021:23:15:52 -0600] "POST /LearnerAcadamy/loginHandle HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [05/Feb/2021:23:15:52 -0600] "GET /LearnerAcadamy/Dashboard.jsp HTTP/1.1" 200 4321
+0:0:0:0:0:0:0:1 - - [05/Feb/2021:23:18:10 -0600] "GET /LearnerAcadamy/Course.jsp?command=edit&id=1 HTTP/1.1" 200 1365
+0:0:0:0:0:0:0:1 - - [05/Feb/2021:23:18:28 -0600] "POST /LearnerAcadamy/courseHandler HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [05/Feb/2021:23:18:28 -0600] "GET /LearnerAcadamy/Dashboard.jsp HTTP/1.1" 200 4490

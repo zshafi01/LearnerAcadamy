@@ -1,17 +1,13 @@
 package com.simplilearn.handlers;
 
 import java.io.IOException;
-import java.io.PrintWriter;
-import java.lang.ProcessBuilder.Redirect;
 import java.util.List;
-
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
-
 import com.simplilearn.model.Classes;
 import com.simplilearn.model.Course;
 import com.simplilearn.model.Instructor;
@@ -27,53 +23,46 @@ import com.simplilearn.repository.UserRepository;
 public class loginHandle extends HttpServlet {
 	private static final long serialVersionUID = 1L;
 
-	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		PrintWriter out= response.getWriter();
-		//out.println("log in page");
-		
-		String email=request.getParameter("email");
-		String password=request.getParameter("password");
-		
-		UserRepository userRepository=new UserRepository();
+	protected void doGet(HttpServletRequest request, HttpServletResponse response)
+			throws ServletException, IOException {
+
+		String email = request.getParameter("email");
+		String password = request.getParameter("password");
+
+		UserRepository userRepository = new UserRepository();
 		User user = userRepository.findbyemail(email);
-		
+
 		HttpSession session = request.getSession();
 		session.setAttribute("userinfo", user);
-		
-		
-		if(user!=null && user.getPassword().equals(password)) {
-			
-			
+
+		if (user != null && user.getPassword().equals(password)) {
+
 			CourseRepository courseRepository = new CourseRepository();
-			List<Course> courses=courseRepository.getAll();
+			List<Course> courses = courseRepository.getAll();
 			session.setAttribute("courseList", courses);
-			
+
 			StudentReposetory studentReposetory = new StudentReposetory();
 			List<Student> students = studentReposetory.getAll();
 			session.setAttribute("studentList", students);
-			
+
 			InstructorRepository instructorRepository = new InstructorRepository();
 			List<Instructor> instructors = instructorRepository.getAll();
 			session.setAttribute("instructorList", instructors);
-			
-			
-			ClassRepository classRepository=new ClassRepository();
-			List<Classes>classesList = classRepository.getAll();
+
+			ClassRepository classRepository = new ClassRepository();
+			List<Classes> classesList = classRepository.getAll();
 			session.setAttribute("classesList", classesList);
-			
-			
-			
-			
-			
+
 			response.sendRedirect("Dashboard.jsp");
-		}else {
+		} else {
 			session.setAttribute("errorinfo", "Either username or password is not correct.");
 			response.sendRedirect("Error.jsp");
 		}
 
-
 	}
-	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+
+	protected void doPost(HttpServletRequest request, HttpServletResponse response)
+			throws ServletException, IOException {
 		doGet(request, response);
 	}
 

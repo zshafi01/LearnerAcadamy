@@ -7,45 +7,56 @@ import org.hibernate.Transaction;
 import org.hibernate.cfg.Configuration;
 import org.hibernate.query.Query;
 
-import com.simplilearn.model.Classes;
 import com.simplilearn.model.Course;
 
 public class CourseRepository {
-	Session getSession(){
-		Configuration cnfg= new Configuration();
-    	cnfg.configure("hibernate.cfg.xml");
-    	Session session = cnfg.buildSessionFactory().openSession();
-    	return session;
+	Session getSession() {
+		Configuration cnfg = new Configuration();
+		cnfg.configure("hibernate.cfg.xml");
+		Session session = cnfg.buildSessionFactory().openSession();
+		return session;
 	}
 
 	public boolean insert(Course course) {
 		try {
-			Session session=getSession();
+			Session session = getSession();
 			Transaction transaction = session.beginTransaction();
 			session.save(course);
 			transaction.commit();
 			session.close();
-			}catch (Exception e) {
-				e.printStackTrace();
-				return false;
+		} catch (Exception e) {
+			e.printStackTrace();
+			return false;
+		}
+		return true;
+
+	}
+
+	public boolean update(Course course) {
+		boolean result = true;
+		Transaction transaction = null;
+		Session session = null;
+		try {
+			session = getSession();
+			transaction = session.beginTransaction();
+			session.update(course);
+			transaction.commit();
+		} catch (Exception e) {
+			if (transaction != null) {
+				transaction.rollback();
 			}
-			return true;
-		
+			result = false;
+		} finally {
+			session.close();
+		}
+		return result;
 	}
 
-	
-	public void update(Course a) {
-		// TODO Auto-generated method stub
-		
+	public void delete(int id) {
+
 	}
 
-	
-	public void delete(int a) {
-		// TODO Auto-generated method stub
-		
-	}
-	
-	public List<Course> getAll(){
+	public List<Course> getAll() {
 		Session session = getSession();
 		Transaction transaction = session.beginTransaction();
 		List<Course> courseList = session.createQuery("FROM Course").list();
@@ -55,24 +66,22 @@ public class CourseRepository {
 		return courseList;
 	}
 
-	
 	public Course getById(int id) {
 		Session session = getSession();
 		Transaction transaction = session.beginTransaction();
 		Query query = session.createQuery("FROM Course where id=:id");
 		query.setParameter("id", id);
 		List resultList = query.getResultList();
-		Course crs=null;
-		if(resultList!=null && !resultList.isEmpty()) {
-		crs= (Course)resultList.get(0);
+		Course crs = null;
+		if (resultList != null && !resultList.isEmpty()) {
+			crs = (Course) resultList.get(0);
 		}
 		transaction.commit();
 		session.close();
 		return crs;
 	}
-	
+
 	public Course getByName(String name) {
-		// TODO Auto-generated method stub
 		return null;
 	}
 

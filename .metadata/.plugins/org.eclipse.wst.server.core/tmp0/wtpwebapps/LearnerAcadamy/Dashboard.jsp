@@ -51,7 +51,7 @@ if(classesList!=null && !classesList.isEmpty()) {
 	<td><%=classes.getSemester() %></td>
 	<td><%=classes.getInstractor().getFname() %></td>
 	<td><%=classes.getCourse().getTitle() %></td>
-	<td><a href="Class.jsp?command=edit&id=<%=classes.getId()%>">Edit</a></td>
+	<td><a href="ClassEdit.jsp?command=edit&id=<%=classes.getId()%>">Edit</a></td>
 	<td><a href="Class.jsp?command=delete&id=<%=classes.getId()%>">Delete</a></td></tr>
 	
 </tr>
@@ -71,7 +71,7 @@ for(Course course:courses)
 {
 %>
 <tr><td><%=course.getTitle() %></td><td><%=course.getHours() %></td><td><%=course.getPrice() %></td>
-<td><a href="Course.jsp?command=edit&id=<%=course.getId()%>">Edit</a></td>
+<td><a href="CourseEdit.jsp?command=edit&id=<%=course.getId()%>">Edit</a></td>
 <td><a href="Course.jsp?command=delete&id=<%=course.getId()%>">Delete</a></td></tr>
 <%}} %>
 </table>
@@ -86,7 +86,7 @@ for(Instructor instructor:instructors)
 {
 %>
 <tr><td><%=instructor.getFname() %></td><td><%=instructor.getLname() %></td>
-<td><a href="Instructor.jsp?command=edit&id=<%=instructor.getId() %>">Edit</a></td>
+<td><a href="InstructorEdit.jsp?command=edit&id=<%=instructor.getId() %>">Edit</a></td>
 <td><a href="Instructor.jsp?command=delete&id=<%=instructor.getId() %>">Delete</a></td>
 </tr>
 <%}} %>
@@ -102,7 +102,7 @@ for(Student student:students)
 {
 %>
 <tr><td><%=student.getFname() %></td><td><%=student.getLname() %></td>
-<td><a href="Student.jsp?command=edit&id=<%=student.getId()%>">Edit</a></td>
+<td><a href="StudentEdit.jsp?command=edit&id=<%=student.getId()%>">Edit</a></td>
 <td><a href="Student.jsp?command=delete&id=<%=student.getId()%>">Delete</a></td>
 </tr>
 <%} }%>

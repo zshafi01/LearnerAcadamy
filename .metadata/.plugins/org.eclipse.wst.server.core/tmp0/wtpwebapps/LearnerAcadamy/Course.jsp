@@ -33,16 +33,7 @@ if(command!=null){
 <tr>
 <td>Course Description:</td><td><textarea name="c_desc" ><%=course.getDescription()%></textarea></td>
 </tr>
-<!--  
-<tr>
-<td>Instructor:</td><td><select name="instructor">
-    <option value="fname1">Ezedin</option>
-    <option value="fname2">Mohammed</option>
-	 <option value="fname3">Nebila</option>
-</select></td>
-</tr>
-<tr>
--->
+
 <td>Instructor:</td><td>
 
 
