@@ -8,6 +8,14 @@
 </head>
 <body>
 <form method="post" action="registrationHandler">
+<div class="container">
+
+
+<div>
+<%@ include file="header.jsp" %>
+</div>
+
+<div>
 <table>
 <tr>
 <td>First Name </td><td><input type="text" name="fname"></td><br/>
@@ -30,6 +38,14 @@
 <tr>
 <td></td><td><input type="submit" value="Submit"></td></tr>
 </table>
+</div>
+
+<div>
+<%@ include file="footer.jsp" %>
+</div>
+
+</div>
+
 </form>
 </body>
 </html>

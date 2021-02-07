@@ -7,6 +7,7 @@ import org.hibernate.Transaction;
 import org.hibernate.cfg.Configuration;
 import org.hibernate.query.Query;
 
+import com.simplilearn.model.Classes;
 import com.simplilearn.model.Course;
 
 public class CourseRepository {
@@ -40,6 +41,8 @@ public class CourseRepository {
 			session = getSession();
 			transaction = session.beginTransaction();
 			session.update(course);
+
+			
 			transaction.commit();
 		} catch (Exception e) {
 			if (transaction != null) {
@@ -52,7 +55,14 @@ public class CourseRepository {
 		return result;
 	}
 
-	public void delete(int id) {
+	public boolean delete(int id) {
+		Session session = getSession();
+		Transaction transaction = session.beginTransaction();
+		Course exisitingstudent=session.get(Course.class, id);
+		session.delete(exisitingstudent);
+		transaction.commit();
+		session.close();
+		return true;
 
 	}
 

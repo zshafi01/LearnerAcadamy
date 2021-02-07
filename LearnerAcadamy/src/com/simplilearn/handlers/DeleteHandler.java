@@ -1,0 +1,97 @@
+package com.simplilearn.handlers;
+
+import java.io.IOException;
+import java.io.PrintWriter;
+import java.util.List;
+
+import javax.servlet.ServletException;
+import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+import javax.servlet.http.HttpSession;
+
+import com.simplilearn.model.Classes;
+import com.simplilearn.model.Course;
+import com.simplilearn.model.Instructor;
+import com.simplilearn.model.Student;
+import com.simplilearn.repository.ClassRepository;
+import com.simplilearn.repository.CourseRepository;
+import com.simplilearn.repository.InstructorRepository;
+import com.simplilearn.repository.StudentReposetory;
+
+/**
+ * Servlet implementation class DeleteHandler
+ */
+@WebServlet("/DeleteHandler")
+public class DeleteHandler extends HttpServlet {
+	private static final long serialVersionUID = 1L;
+       
+    /**
+     * @see HttpServlet#HttpServlet()
+     */
+    public DeleteHandler() {
+        super();
+        // TODO Auto-generated constructor stub
+    }
+
+	/**
+	 * @see HttpServlet#doGet(HttpServletRequest request, HttpServletResponse response)
+	 */
+	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		// TODO Auto-generated method stub
+		String idtodelete=request.getParameter("id");
+		String type=request.getParameter("type");
+		StudentReposetory studentReposetory=new StudentReposetory();
+		InstructorRepository instructorRepository=new InstructorRepository();
+		CourseRepository courseRepository=new CourseRepository();
+		ClassRepository classRepository=new ClassRepository();
+		boolean isdeleted=false;
+		if(type.equalsIgnoreCase("student")) {
+			 isdeleted = studentReposetory.delete(Integer.parseInt(idtodelete));
+		}
+		if(type.equalsIgnoreCase("course")) {
+			 isdeleted = courseRepository.delete(Integer.parseInt(idtodelete));
+				}
+		if(type.equalsIgnoreCase("instructor")) {
+			 isdeleted = instructorRepository.delete(Integer.parseInt(idtodelete));
+		}
+		if(type.equalsIgnoreCase("class")) {
+			 isdeleted = classRepository.delete(Integer.parseInt(idtodelete));
+		}
+		PrintWriter writer = response.getWriter();
+		if(isdeleted) {
+
+			HttpSession session = request.getSession();
+			List<Course> courses = courseRepository.getAll();
+			session.setAttribute("courseList", courses);
+
+
+			List<Student> students = studentReposetory.getAll();
+			session.setAttribute("studentList", students);
+
+
+			List<Instructor> instructors = instructorRepository.getAll();
+			session.setAttribute("instructorList", instructors);
+
+
+			List<Classes> classesList = classRepository.getAll();
+			session.setAttribute("classesList", classesList);
+			
+			writer.print(type+" id:"+idtodelete+" is deleted "+""
+					+ "<a href=\"Dashboard.jsp\">Back</a>");
+		}else {
+			writer.print(type+" id:"+idtodelete+" is note deleted "+"<a heref=\"Dashboard.jsp\">Back</a>");
+		}
+		
+	}
+
+	/**
+	 * @see HttpServlet#doPost(HttpServletRequest request, HttpServletResponse response)
+	 */
+	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		// TODO Auto-generated method stub
+		doGet(request, response);
+	}
+
+}

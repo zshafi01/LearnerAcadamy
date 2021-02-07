@@ -9,6 +9,7 @@ import org.hibernate.query.Query;
 import com.simplilearn.model.Classes;
 import com.simplilearn.model.Course;
 import com.simplilearn.model.Instructor;
+import com.simplilearn.model.Student;
 
 public class ClassRepository {
 
@@ -84,8 +85,17 @@ public class ClassRepository {
 		return result;
 
 	}
+	
+	public boolean delete(int id) {
+		Session session = getSession();
+		Transaction transaction = session.beginTransaction();
+		Classes exisitingstudent=session.get(Classes.class, id);
+		session.delete(exisitingstudent);
+		transaction.commit();
+		session.close();
+		return true;
+
+	}
 }
 
-//	public void delete(int a) {
-//		
-//	}
+

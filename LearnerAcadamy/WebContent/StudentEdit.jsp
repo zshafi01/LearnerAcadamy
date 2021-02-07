@@ -14,15 +14,17 @@
 List<Student> students=(List<Student>)session.getAttribute("instructorList");
 String command = request.getParameter("command");
 Student student=new Student();
-if(command!=null){
+
 	String id = request.getParameter("id");
 	StudentReposetory studentReposetory = new StudentReposetory();
 	student=studentReposetory.getById(Integer.parseInt(id));
-}
+
 %>
 <table>
 <tr>
-<td>First Name:</td><td> <input type="text" name="fname" value=<%=student.getFname() %>></td>
+<td>First Name:</td><td>
+<input type="hidden" name="id" value=<%=student.getId()%>>
+ <input type="text" name="fname" value=<%=student.getFname() %>></td>
 </tr>
 <tr>
 <td>Last Name: </td><td><input type="text" name="lname" value=<%=student.getLname() %>></td>

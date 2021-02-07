@@ -6,6 +6,8 @@ import org.hibernate.Session;
 import org.hibernate.Transaction;
 import org.hibernate.cfg.Configuration;
 import org.hibernate.query.Query;
+
+import com.simplilearn.model.Course;
 import com.simplilearn.model.Instructor;
 
 public class InstructorRepository {
@@ -52,7 +54,14 @@ public class InstructorRepository {
 
 	}
 
-	public void delete(int a) {
+	public boolean delete(int id) {
+		Session session = getSession();
+		Transaction transaction = session.beginTransaction();
+		Instructor exisitingstudent=session.get(Instructor.class, id);
+		session.delete(exisitingstudent);
+		transaction.commit();
+		session.close();
+		return true;
 
 	}
 

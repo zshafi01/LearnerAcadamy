@@ -6,7 +6,6 @@ INDEX VERSION 1.131+C:\Users\biliy\Desktop\Simple learing\phase2-project\.metada
 3858053053.index
 1043198226.index
 1307608603.index
-2326572229.index
 643927311.index
 2810163616.index
 937812844.index

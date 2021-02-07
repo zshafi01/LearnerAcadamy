@@ -51,8 +51,14 @@ public class StudentReposetory {
 
 	}
 
-	public void delete(int a) {
-		// TODO Auto-generated method stub
+	public boolean delete(int id) {
+		Session session = getSession();
+		Transaction transaction = session.beginTransaction();
+		Student exisitingstudent=session.get(Student.class, id);
+		session.delete(exisitingstudent);
+		transaction.commit();
+		session.close();
+		return true;
 
 	}
 

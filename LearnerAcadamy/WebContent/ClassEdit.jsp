@@ -16,16 +16,18 @@ List<Student> students=(List<Student>)session.getAttribute("studentList");
 List<Course> courses=(List<Course>)session.getAttribute("courseList");
 String command = request.getParameter("command");
 Classes classes=new Classes();
-if(command!=null){
+
 	String id = request.getParameter("id");
 	ClassRepository classRepository = new ClassRepository();
 	classes=classRepository.findbyid(Integer.parseInt(id));
-}
+
 %>
 
 <table>
 <tr>
-<td>Class Year:</td><td><input type="text" name="c_year" value=<%=classes.getYear() %>></td>
+<td>Class Year:</td><td>
+<input type="hidden" name="id" value=<%=classes.getId()%>>
+<input type="text" name="c_year" value=<%=classes.getYear() %>></td>
 </tr>
 <tr>
 <td>Semester:</td><td><input type="text" name="c_semester" value=<%=classes.getSemester() %>></td>
@@ -50,7 +52,7 @@ if(command!=null){
 <td>Instructor:</td><td>
 
 
-<select name="instructor">
+<select name="instructor" >
 <% for(Instructor instractor:instructors) { %>
     <option value=<%=instractor.getId() %> <%=(instractor.getId()==classes.getInstractor().getId())?"selected":""%> >
     <%=instractor.getFname() %>

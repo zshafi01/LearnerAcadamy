@@ -13,15 +13,19 @@
 List<Instructor> instructors=(List<Instructor>)session.getAttribute("instructorList");
 String command = request.getParameter("command");
 Course course=new Course();
-if(command!=null){
-	String id = request.getParameter("id");
-	CourseRepository courseRepository = new CourseRepository();
-	course=courseRepository.getById(Integer.parseInt(id));
-}
+
+String id = request.getParameter("id");
+CourseRepository courseRepository = new CourseRepository();
+course=courseRepository.getById(Integer.parseInt(id));
+
 %>
 <table>
 <tr>
-<td>Course Title:</td><td><input type="text" name="c_name" value=<%=course.getTitle() %>></td>
+
+<td>Course Title:</td><td>
+<input type="hidden" name="id" value=<%=course.getId()%>>
+<input type="text" name="c_name" value=<%=course.getTitle() %>>
+</td>
 </tr>
 <tr>
 <td>Course hour:</td><td><input type="text" name="c_hour" value=<%=course.getHours() %>></td>

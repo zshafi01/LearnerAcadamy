@@ -1,6 +1,8 @@
 package com.simplilearn.handlers;
 
 import java.io.IOException;
+import java.util.List;
+
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
@@ -22,13 +24,15 @@ public class sudentEditerHandler extends HttpServlet {
 		student.setId(Integer.parseInt(request.getParameter("id")));
 		student.setFname(request.getParameter("fname"));
 		student.setLname(request.getParameter("lname"));
-		if (studentReposetory.update(student)) {
-			request.setAttribute("msg", "Successful");
-		} else {
-			request.setAttribute("msg", "Failed");
-		}
-		request.getRequestDispatcher("Dashboard.jsp").forward(request, response);
-	}
+		boolean isupdated = studentReposetory.update(student);
+		if(isupdated) {
+			List<Student> students = studentReposetory.getAll();
+			request.getSession().setAttribute("studentList", students);
+			request.getRequestDispatcher("Dashboard.jsp").forward(request, response);
+		}else {
+			request.getSession().setAttribute("errorinfo", "Unable to edit course.");
+			response.sendRedirect("Error.jsp");
+		}}
 
 	protected void doPost(HttpServletRequest request, HttpServletResponse response)
 			throws ServletException, IOException {

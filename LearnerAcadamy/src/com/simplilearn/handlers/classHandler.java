@@ -17,13 +17,11 @@ public class classHandler extends HttpServlet {
 
 	protected void doGet(HttpServletRequest request, HttpServletResponse response)
 			throws ServletException, IOException {
-		Integer id=Integer.parseInt(request.getParameter("id"));
 		String year = request.getParameter("c_year");
 		String c_semester = request.getParameter("c_semester");
 		String instructorid = request.getParameter("instructor");
 		String courseid = request.getParameter("course");
 		Classes classes = new Classes();
-		classes.setId(id);
 		classes.setYear(year);
 		classes.setSemester(c_semester);
 

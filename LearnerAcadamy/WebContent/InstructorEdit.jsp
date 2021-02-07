@@ -13,15 +13,17 @@
 <%
 String command = request.getParameter("command");
 Instructor instructor=new Instructor();
-if(command!=null){
+
 	String id = request.getParameter("id");
 	InstructorRepository instructorReposetory = new InstructorRepository();
 	instructor=instructorReposetory.getById(Integer.parseInt(id));
-}
+
 %>
 <table>
 <tr>
-<td>First Name:</td><td> <input type="text" name="fname" value=<%=instructor.getFname() %>></td>
+<td>First Name:</td><td>
+<input type="hidden" name="id" value=<%=instructor.getId()%>>
+<input type="text" name="fname" value=<%=instructor.getFname() %>></td>
 </tr>
 <tr>
 <td>Last Name:</td><td> <input type="text" name="lname" value=<%=instructor.getLname() %>></td>

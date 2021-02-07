@@ -11,37 +11,20 @@
 <body>
 <form  method="post" action="sudentHandler">
 <%
-List<Student> students=(List<Student>)session.getAttribute("instructorList");
-String command = request.getParameter("command");
-Student student=new Student();
-if(command!=null){
-	String id = request.getParameter("id");
-	StudentReposetory studentReposetory = new StudentReposetory();
-	student=studentReposetory.getById(Integer.parseInt(id));
-}
+
 %>
 <table>
 <tr>
-<td>First Name:</td><td> <input type="text" name="fname" value=<%=student.getFname() %>></td>
+<td>First Name:</td><td> <input type="text" name="fname" ></td>
 </tr>
 <tr>
-<td>Last Name: </td><td><input type="text" name="lname" value=<%=student.getLname() %>></td>
+<td>Last Name: </td><td><input type="text" name="lname" ></td>
 </tr>
 <tr>
 <td></td><td>
-<%
-if(command!=null && "edit".equalsIgnoreCase(command)) {
-%>
-<input type="submit" value="Edit">
-<%
-} else if(command!=null && "delete".equalsIgnoreCase(command)) {
-%>
-<input type="submit" value="Delete">
-<% 
-}else{
-%>
+
 <input type="submit" value="Save">
-<%}%>
+
 </td>
 </tr>
 </table>

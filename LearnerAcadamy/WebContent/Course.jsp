@@ -12,61 +12,25 @@
 
 <%
 List<Instructor> instructors=(List<Instructor>)session.getAttribute("instructorList");
-String command = request.getParameter("command");
-Course course=new Course();
-if(command!=null){
-	String id = request.getParameter("id");
-	CourseRepository courseRepository = new CourseRepository();
-	course=courseRepository.getById(Integer.parseInt(id));
-}
 %>
 <table>
 <tr>
-<td>Course Title:</td><td><input type="text" name="c_name" value=<%=course.getTitle() %>></td>
+<td>Course Title:</td><td><input type="text" name="c_name" ></td>
 </tr>
 <tr>
-<td>Course hour:</td><td><input type="text" name="c_hour" value=<%=course.getHours() %>></td>
+<td>Course hour:</td><td><input type="text" name="c_hour" ></td>
 </tr>
 <tr>
-<td>Course Price:</td><td><input type="text" name="c_price" value=<%=course.getPrice()%>></td>
+<td>Course Price:</td><td><input type="text" name="c_price" ></td>
 </tr>
 <tr>
-<td>Course Description:</td><td><textarea name="c_desc" ><%=course.getDescription()%></textarea></td>
+<td>Course Description:</td><td><textarea name="c_desc" ></textarea></td>
 </tr>
 
-<td>Instructor:</td><td>
-
-
-<select name="instructor">
-<% for(Instructor instractor:instructors) { %>
-    <option value=<%=instractor.getId() %>><%=instractor.getFname() %></option>
-	 <%} %>
-</select>
-
-</td>
-</tr>
-
-<td>Class:</td><td><select name="class">
-    <option value="classA">Class A</option>
-    <option value="classB">Class B</option>
-	 <option value="classC">Class C</option>
-</select>
-</td></tr>
 <tr>
 <td>
-<%
-if(command!=null && "edit".equalsIgnoreCase(command)) {
-%>
-<input type="submit" value="Edit">
-<%
-} else if(command!=null && "delete".equalsIgnoreCase(command)) {
-%>
-<input type="submit" value="Delete">
-<% 
-}else{
-%>
 <input type="submit" value="Save">
-<%}%>
+
 </td>
 </tr>
 </table>
